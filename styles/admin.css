@@ -1,0 +1,268 @@
+
+body{
+	background-image:url("../images/background.jpg");
+	height: 100%;
+	background-position: 0px 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.logo{
+	display: block;
+	margin-top: -33px;
+}
+.title
+{
+	display: block;
+	margin-top: -133px;
+	text-align:center;
+	font-size:70px;
+	font-family:Adorable;
+}
+
+.menu{
+	list-style-type:none;
+	width:100%;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
+	text-align:center;
+	font-family:Calibri;
+	
+	
+}
+
+.search {
+  width: 200px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 8px 20px 8px 40px;
+  margin:100px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.search:focus {
+  width: 40%;
+}
+
+input.btnlogin{
+	float: right;
+	width: 100px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color:#A072BE;
+    padding: 8px 16px 8px 16px;
+    position: absolute;
+    margin-top: -40px;
+    right: 20px;
+    color: white;
+	cursor: pointer;
+}
+
+input.btnlogin:hover{
+	 background-color: #73436D;
+}
+
+input.btnsignup{
+	float: right;
+	width: 100px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #FB4570;
+    padding: 8px 16px 8px 16px;
+    margin-top: -40px;
+    position: absolute;
+    right: 125px;
+    color: white;
+	cursor: pointer;
+}
+
+input.btnsignup:hover{
+	 background-color: #FF8BDA;
+}
+
+
+.menulist{
+	float : right ;
+	font-size : 20px;
+	
+}
+
+li a{
+	display : block;
+	color : white;
+	text-align : center;
+	padding : 14px 16px ;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:#111;
+}
+
+.image{
+  width: 50%;
+  height:60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.pictures:hover .image {
+  opacity: 0.3;
+}
+
+.pictures:hover .textstyle {
+  opacity: 1;
+}
+
+
+.pictures {
+  position: relative;
+  
+}
+
+.textstyle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  color: black;
+  font-size: 40px;
+  padding: 16px 32px;
+}
+
+
+.footer {
+    background-image: linear-gradient(-90deg, #FF94B2, #CFB2B0);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: normal 18px Calibri;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding: 10px 0px 10px 0px;
+    margin-top: 80px;
+}
+
+.textstyle {
+	cursor: pointer;
+}
+hg{
+	
+	color=blue;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 64px 0 12px 0;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 10%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 100px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 100px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  
+  
+bts{
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 55px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+h2{
+	
+	text-color:pink;
+}

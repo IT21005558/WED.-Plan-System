@@ -1,0 +1,65 @@
+h3,h4
+{
+	text-align:center;
+	font-size:25px;
+	font-family:Calibri;
+}
+
+ body
+{
+	
+	background-image:url(../images/reg1.jpg);
+}
+
+{
+  box-sizing: border-box;
+}
+
+form
+{
+	font-family:Calibri;
+	font-size:20px;
+}
+
+input[type=text], select, textarea 
+{
+  width: 95%;
+  padding:10px;
+  border:2px solid #124A63 ;
+  border-radius: 9px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  font-family:Calibri;
+  font-size:18px;
+
+}
+
+.csub
+ {
+  background-color:#FF0000 ;
+  color: white;
+  padding: 13px 18px;
+  border: none;
+  
+}
+
+.csub:hover
+{
+  background-color: #FF0000 ;
+}
+
+.container1
+{
+  border-radius: 6px;
+  background-color: #f2f2f2;
+  padding: 12px;
+  margin: auto;
+  width: 55%;
+}
+
+
+
+
+
+
+  

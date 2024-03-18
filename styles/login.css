@@ -1,0 +1,56 @@
+/*Login form Styles */
+
+body
+{
+	
+	background-image:url(../images/reg1.jpg);
+}
+
+.box 
+{
+
+	border:1px solid #2d416d;
+	box-shadow: 0 1px #5670A4 inset, 0 0 10px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 28px;
+	width: 370px;
+	height: 300px;
+	margin: 30px auto;
+	padding: 30px 30px 0 30px;
+	text-align: center;
+}
+
+#email,#pwd
+{
+  width: 360px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 20px;
+  margin-top:10px;
+  margin-bottom:10px;
+  opacity:0.750;
+
+}
+
+#btnLog1
+{
+	margin-top:10px;
+	width: 120px;
+	box-sizing: border-box;
+	border-radius: 18px;
+	border: none;
+	background-position: 10px 10px; 
+	font-size: 18px;
+	background-color:#2d416d;
+	padding: 10px 20px 10px 20px;
+	color:white;
+    cursor:pointer;
+}
+#btnLog1:hover
+{
+	background-color:#AB0552;
+}

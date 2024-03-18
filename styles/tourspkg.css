@@ -1,0 +1,148 @@
+.hnympage
+{	
+	height:420px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+fieldset
+{
+	background-color : white;
+	border:2px solid #2d416d;
+	box-shadow: 0 1px #5670A4 inset, 0 0 10px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	width: 625px;
+	opacity:0.1px;
+	height: auto;
+	margin: auto;
+	padding: 30px 30px 0 30px;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+legend
+{
+	/*font-size:45px;
+	font-family:Calibri;
+	color:#170B3B;
+	border-radius:20px;*/
+	font-size:30px;
+	font-family:Calibri;
+	color:black;
+	border:2px solid black;
+	border-radius: 20px;
+	padding: 24px;
+	background-color:white;
+	box-shadow: 0 1px #5670A4 inset, 0 0 10px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+mark 
+{ 
+  background-color:#61C2A2;
+  color: black;
+}
+
+
+
+.btns
+{
+	background-color:#52688F;
+	border: none;
+	color: white;
+	padding: 17px 28px;
+	text-align: center;
+	font-size: 22px;
+	margin: 50px 5px;
+	transition: 0.45s;
+	border-radius:10px;
+	font-family:Calibri;
+	cursor: pointer;
+}
+
+input:active {
+	transform: translate(4px, 4px);
+	box-shadow: 0 0 0 #FE2E2E;
+}
+
+#submitsl:hover
+{
+	background-color:#1B2E3C;
+}
+
+#submitmld:hover
+{
+	background-color:#1B2E3C;
+}
+
+#submitpar:hover
+{
+	background-color:#1B2E3C;
+}
+
+li.details
+{
+	margin-left:auto;
+	font-size:22px;
+	font-family:Calibri;
+	text-align:left;
+	padding: auto;
+	margin-right: auto;
+	
+}
+
+h5
+{
+	text-align:center;
+	font-family:Calibri;
+	font-size:25px;
+}
+
+#submitmld
+{
+	margin-left:auto;
+}
+
+#submitsl
+{
+	margin-left:auto;
+	
+}
+
+#submitpar
+{
+	margin-left:auto;
+}
+
+.honeyimg
+{
+	
+	width:500px;
+	height:300px;
+	margin: center;
+	/*width:280px;
+	height:180px;
+	padding: auto;
+	margin-left: auto;
+	margin-right: auto;*/
+	
+}
+
+div.title
+{
+	margin-top: 93px;
+}
+
+#submitsl
+{
+	margin-left:auto;
+	
+}
+
+#submitpar
+{
+	margin-left:auto;
+}

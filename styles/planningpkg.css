@@ -1,0 +1,146 @@
+body
+{
+	
+	background-image:url(../images/reg1.jpg);
+}
+button
+{
+	
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+.box {
+	/*background: #2db34a;*/
+	background: white;
+	border-radius: 6px;
+	cursor: pointer;
+	height: 95px;
+	line-height: 95px;
+	text-align: center;
+	transition-property: background, border-radius;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+	width: auto;
+}
+.box:hover {
+	/*background: #ff7b29;*/
+	background: red;
+	border-radius: 50%;
+}
+fieldset
+{
+
+	border:1px solid #2d416d;
+	box-shadow: 0 1px #5670A4 inset, 0 0 10px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	width: 625px;
+	height: auto;
+	margin: 30px auto;
+	padding: 30px 30px 0 30px;
+	text-align: center;
+}
+unorder
+{
+	
+	text-align: center;
+	
+}
+.pkg
+{
+	
+	text-align: center;
+	background-color:white;
+	font-size: 17px;
+	margin: auto;
+	width: 80%;
+	font-family:Calibri;
+	padding: 34px;
+	border:2px solid black;
+	box-shadow: 0 1px #5670A4 inset, 0 0 10px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 28px;
+	
+	
+}
+.limenu
+{
+	
+	text-align: left;
+	display:circle;
+	font-size: 22px;
+	
+}
+legend
+{
+	font-size:30px;
+	font-family:Calibri;
+	color:black;
+	border:2px solid black;
+	border-radius: 20px;
+	padding: 24px;
+	background-color:white;
+	box-shadow: 0 1px #5670A4 inset, 0 0 10px 5px rgba(0, 0, 0, 0.1);
+	
+}
+
+.btns
+{
+	background-color:#000C66;
+	border: none;
+	color: white;
+	padding: 17px 28px;
+	text-align: center;
+	font-size: 22px;
+	margin: 6px 5px;
+	transition: 0.45s;
+	border-radius:10px;
+	font-family:Calibri;
+	cursor: pointer;
+
+}
+
+.btns:hover
+{
+	background-color:#0000FF;
+}
+input:active {
+	transform: translate(4px, 4px);
+	box-shadow: 0 0 0 blue;
+}
+
+input[type=talk]
+{
+	background-color:#000C66;
+	border: none;
+	color: white;
+	padding: 17px 28px;
+	text-align: center;
+	font-size: 18px;
+	margin: 6px 5px;
+	transition: 0.45s;
+	border-radius:10px;
+
+}
+#talk:hover
+{
+	background-color:#0000FF;
+}
+.wedpkg{
+
+	width: 625px;
+	height: auto;
+	margin: 30px auto;
+	padding: 30px 30px 0 30px;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+.image
+{
+	width: 30%;
+	
+}
+

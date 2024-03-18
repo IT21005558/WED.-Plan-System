@@ -1,0 +1,149 @@
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align:center;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+/*Register form Styles */
+
+
+
+label
+{
+	float:left;
+	font-size: 23px;
+	color: black; 
+	font-family: Calibri;
+}
+
+
+.box 
+{
+    font-family:Calibri;
+	border:1px solid #2d416d;
+	box-shadow: 0 1px #5670A4 inset, 0 0 10px 5px rgba(0, 0,9, 0.1);
+	border-radius: 17px;
+	
+	width: 550px;
+	height: 500px;
+	margin: 30px auto;
+	padding: 30px 30px 0 30px;
+	text-align: center;
+}
+input[type=text]
+{
+	text-align:justify;
+	width:60%;
+	padding:6px 90px;
+	color:white;
+	margin:10px 0;
+	border-radius:77px;
+	box-sizing:border-box;
+	color:black;
+	font-size:17px;
+
+
+
+}
+
+
+
+
+.hed
+{
+	padding:1px;
+	background-color:#a3a375;
+}
+
+.fbsubmit
+{
+	
+	
+	margin-top:10px;
+	width: 140px;
+	box-sizing: border-box;
+	border-radius: 18px;
+	border: none;
+	background-position: 10px 10px; 
+	font-size: 18px;
+	background-color:#0c695b;
+	padding: 10px 20px 10px 20px;
+	color:white;
+    cursor:pointer;
+	
+}
+.fbsubmit:hover
+{
+	background-color:#108c7a;
+}
+	
+/*stars add..........................*/
+
+.rate {
+    float: left;
+    height: 96px;
+    padding: 2px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:50px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content:;
+}
+.rate > input:checked ~ label {
+    color: #FFFF33;                /*star colour..................*/
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #FFFF33;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #ff1493;
+}
+	

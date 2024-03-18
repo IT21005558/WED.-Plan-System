@@ -1,0 +1,92 @@
+
+body
+{
+	
+	background-image:url(../images/reg1.jpg);
+}
+
+/*box background*/
+.container
+{
+	width:57%;
+	padding:20px;
+	background:#ddd;
+	margin: 100px auto;
+	display:flex;
+	justify-content:center;
+	position: relative;
+	background: rgba(255,255,255,.2);
+}
+
+/* box1 */
+.box1{
+	height:250px;
+	width:700px;
+	background:#1c81a3;
+	margin: 0px 10px;
+	transition:1s;
+}
+.box1:hover{
+	transform:scale(1.1);
+	background:#07bbf7;
+	box-shadow:2px 2px 2px #000;
+	z-index:2;
+	cursor:pointer;
+}
+
+
+/*box2*/
+.box2{
+	width:700px;
+	height:200px;
+	background:#1c81a3;
+	margin: 0px 10px;
+	transition:1s;
+}
+.box2:hover
+{
+	transform:scale(1.1);
+	background:#07bbf7;
+	box-shadow:2px 2px 2px #000;
+	z-index:2;
+	cursor:pointer;
+}
+
+/*box3*/
+.box3{
+	width:700px;
+	height:200px;
+	background:#1c81a3;
+	margin: 0px 10px;
+	transition:1s;
+}
+
+.box3:hover
+{
+	transform:scale(1.1);
+	background:#07bbf7;
+	box-shadow:2px 2px 2px #000;
+	z-index:2;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
