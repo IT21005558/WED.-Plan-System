@@ -1,0 +1,167 @@
+<?php
+	session_start();
+
+	$userName = "";
+	if(isset($_SESSION["uname"])){
+		
+		$userName=$_SESSION["uname"];
+	}
+	else{
+		header("Location:'login.html'");
+	}
+?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Planning Packages : Wedding with Smile </title>
+		
+		<!--add stylesheet-->
+		<link rel="stylesheet" href="styles/home.css">
+		<link rel="stylesheet" href="styles/planningpkg.css">
+		
+	</head>
+	
+		<link rel="icon" href="images\heart.png">
+
+	<body>
+		<!--header-->
+		<div name="header">
+			<img class="logo" src = "images\logo.png" onclick="window.location.href = 'home.html'" width="250" height="200" alt="Logo">
+		
+		
+		<h1 class="title"> Wedding with Smile </h1>
+		
+		<div class="register">
+		<form method="POST" action="logout.php">
+			<input type ="submit" name="logout" class="btnlogin" value="Log Out" >	
+		</form>
+		<form method="POST" action="User_Profile.php">
+			<input type ="submit" class="btnsignup" value="Profile" >
+		</form>
+		</div>
+		
+		<ul class="menu">
+			<li class="menulist"><a href="contactuslogged.html"> Contact Us</a></li>
+			<li class="menulist"><a href="aboutuslogged.html">About Us</a></li>
+			<li class="menulist"><a href="ourpackageslogged.html">Our Services</a></li>
+			<li class="menulist"><a href="homelogged.php">Home</a></li>
+		</ul>
+		
+		</div><br>
+		
+		<!--<div align="center">
+			<input type="text" class="search" placeholder="Find what you want...">
+			
+		</div>-->
+		
+		<div align="center">
+		<center> <h2 style="color:#AB0552; font-size: 40px; font-family:Calibri" > Wedding Planning Packages </h2></center>
+		</div>
+		
+		<!-- Adding Wedding Planning Package 1 -->
+		<fieldset style="border: 2px solid black;">
+		
+		<legend><b> Silver Package </b></legend>
+		<form method="POST" action="planningchk.php">
+		<p>
+			<ul class='pkg'> <img class=image src="images/silver.png">
+			
+			<p class="limenu"> With partial wedding planning service, we can help you at any stage of the wedding planning,from finding you reliable suppliers, concept designing, bringing your wedding budget back on track or indeed helipng you set one. </p>&nbsp
+			<p class="limenu"> This Package includes,</br>
+			<li class="limenu"> Make sure reception area is set up as planned, Band/DJ on schedule, etc. </li>
+			<li class="limenu"> Final consulation with the bride, groom and the families to brief on day's proceedings. </li>
+			<li class="limenu"> Guest list handling service. </li>
+			<li class="limenu"> Cover all the catering, Photography and Videography. </li>
+		</p>
+		
+		<p>
+		<!--<center><input type="talkteam" name="talkteam" onclick="return valid()" value="Talk with Team!" id="talkteam"></center>-->
+		<div class="box"><h3>LKR 350,000</h3></div><br>
+		<center><input type="submit" name="submit" class="btns" value="    Book Now!    " id="submit1"></center>
+		<!--<center><input type="submit" name="submit" onclick="window.location.href = 'bookingwp1.html'" value="    Book Now    " id="submit"><input type="submit" name="talk" onclick="window.location.href ='contactus.html'" value="Talk with Team!" id="talk"></center>-->
+		</p></ul><br><br>
+		</form>
+	</fieldset>
+	<br>
+	<br>
+
+	<!-- Adding Wedding Planning Package 2 -->
+	<fieldset style="border: 2px solid black;">
+			
+			<legend ><b> Gold Package </b></legend>
+		<form method="POST" action="planningchk.php">
+		<p>
+			<ul class='pkg'><img class=image src="images/gold.png">
+			<p class="limenu"> Gold package is for the couples who want guidance in planning their wedding from the beginning to the end. Maybe you does not have enough time to plan and coordinate your wedding. </p><br>
+			<p class="limenu"> This Package includes, </p><br>
+			<li class="limenu"> This package includes everything on Silver Package and more. </li>
+			<li class="limenu"> Assist with client from the very first beginning of selecting a color scheme, theme and style of the wedding. </li>
+			<li class="limenu"> Vendor/Service provide coordination and booking at a discounted prices. </li>
+		</p>
+		
+		<p>
+		<!--<center><input type="talkteam" name="talkteam" onclick="return valid()" value="Talk with Team!" id="talkteam"></center>-->
+		<div class="box"><h3>LKR 600,000</h3></div><br>
+		<center><input type="submit" name="submit" class="btns"  value="    Book Now!    " id="submit2"></center>
+		<!--<center><input type="submit" name="submit" onclick="window.location.href = 'bookingwp2.html'" value="    Book Now    " id="submit"><input type="submit" name="talk" onclick="window.location.href ='contactus.html'" value="Talk with Team!" id="talk"></center>-->
+		</p></ul><br><br>
+		</form>
+	</fieldset>	
+	<br>
+	<br>
+	
+	<!-- Adding Wedding Planning Package 3 -->
+	<fieldset style="border: 2px solid black;">
+		
+		<legend ><b> Platinum Package </b></legend>
+		<form method="POST" action="planningchk.php">
+		
+		<p>
+			<ul class='pkg'><img class=image src="images/platinum.png">
+			<p class="limenu"> Planning the entire wedding without a coordinator is already stressful enough, so the least you can do is hire someone who can handle the stress of the day. We're gonna make your dream day magical. </p><br>
+			<p class="limenu"> This Package includes, </p><br>
+			<li class="limenu"> This package includes everything on Gold Package and more. </li>
+			<li class="limenu"> Coordinate the collection of gifts recieved at wedding to be handed over to pre-arranged individual nominated by the client. </li>
+		</p>
+		
+		<p>
+		<!--<center><input type="talkteam" name="talkteam" onclick="return valid()" value="Talk with Team!" id="talkteam"></center>-->
+		<div class="box"><h3>LKR 1,000,000</h3></div><br>
+		<!--<button id="btnl" onclick="loadData('btnl');"><h3>LKR 1,000,000</h3></button>-->
+		<center><input type="submit" name="submit" class="btns" value="    Book Now!    " id="submit3"></center>
+		<!--<center><input type="submit" name="submit" onclick="window.location.href = 'bookingwp3.html'" value="    Book Now    " id="submit"><input type="submit" name="talk" onclick="window.location.href ='contactus.html'" value="Talk with Team!" id="talk"></center>-->
+		</p></ul><br><br>
+		</form>
+	</fieldset>	
+	<br>
+	<br>
+	<div align="center">
+		<center><address><h2 style="color:#AB0552; font-size: 40px; font-family:Calibri" > Want to know more?<br> Our Experts are always on hand to talk! </h2></address><input type="submit" class="btns" name="talk" onclick="window.location.href ='contactus.html'" value="Talk with Team!" id="talk"></center>
+		</div>
+		
+		
+		<!--footer-->
+		<div name="footer">
+			<footer class="footer">
+			<img src="images/logo.png" align ="center" width="120" height="90" alt="Logo">
+				<p>
+					<a href="#">Home</a>
+					&nbsp
+					<a href="#">Terms of Use</a>
+					&nbsp
+					<a href="#">News</a>
+					&nbsp
+					<a href="aboutus.html">About Us</a>
+					&nbsp
+					
+				</p>
+
+			<p class="footer-copyright"> Wedding with Smile &copy; 2021</p>
+
+		</footer>
+		
+		
+	</body>
+	
+	</html>

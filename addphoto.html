@@ -1,0 +1,108 @@
+<html>
+
+	<head>
+		<title> Add Packages : Wedding with Smile </title>
+		
+		<!--add stylesheet-->
+		<link rel="stylesheet" href="styles/home.css">
+		<link rel="stylesheet" href="styles/addphoto.css">
+		
+		<!--add javascript-->
+		<script src= "js/booking.js" >
+		</script>
+		
+	</head>
+	
+		<link rel="icon" href="images\heart.png">
+	
+	<body>
+		<!--header-->
+		<div name="header">
+			<img class="logo" src = "images\logo.png"  width="250" height="200" alt="Logo">
+		
+		
+		<h1 class="title"> Wedding with Smile </h1>
+		
+		<div class="register">
+		<form method="POST" action="logout.php">
+			<input type ="submit" name="logout" class="btnlogin" value="Log Out" >	
+		</form>
+		<form method="POST" action="admin.php">
+			<input type ="submit" class="btnsignup" value="Profile" >
+		</form>
+		</div>
+		
+		<ul class="menu">
+			<li class="menulist"><a href="contactuslogged.html"> Contact Us</a></li>
+			<li class="menulist"><a href="aboutuslogged.html">About Us</a></li>
+			<li class="menulist"><a href="ourpackageslogged.html">Our Services</a></li>
+			<li class="menulist"><a href="adminhomelogged.php">Home</a></li>
+		</ul>
+	
+		</div>
+		
+		<div align="center">
+		<center> <h2 style="color:#AB0552; font-size: 40px; font-family:Calibri" > Wedding Photography Packages </h2></center>
+		</div>
+		
+		<div><fieldset style="border: 2px solid black;">
+		
+		<legend><b> Add New Package </b></legend>
+			<img class=image src="images/wp.png">
+		
+		<div class="container" >
+		<form action="addphoto.php"  class="content" method="POST">
+		
+			  
+			  <div class="form-inputs">
+				<label for="Package_Name">Enter Package Name</label>
+				<input type="text" class="frminput" id="Package_Name" name="Package_Name" placeholder="New Package Name" required>
+			  </div>
+			  
+			  <div class="form-inputs">
+				<label for="Package_Price">Enter Package Price</label>
+				<input type="text" class="frminput" id="Package_Price" name="Package_Price" required>
+			  </div>
+			  
+			  <div class="form-inputs">
+				<label for="Package_description">Enter Description</label>
+				<input type="textarea" class="frminput" id="Package_description" name="Package_description" placeholder="This is Our new package" required>
+			  </div>
+			  <br>
+			  
+			  <button type="submit" class="btnbook" id="submit" > Click Here to Add Package </button>
+			  
+			  </form>
+			  
+			  
+
+		 </div>
+		 </fieldset></div>
+		
+		
+		
+		
+		
+		<div name="footer">
+			<footer class="footer">
+			<img src="images/logo.png" align ="center" width="120" height="90" alt="Logo">
+			<p>
+				<a href="#">Home</a>
+				&nbsp
+				<a href="#">Terms of Use</a>
+				&nbsp
+				<a href="#">News</a>
+				&nbsp
+				<a href="aboutus.html">About Us</a>
+				&nbsp
+
+			</p>
+
+			<p class="footer-copyright">Wedding with Smile &copy; 2021</p>
+		</div>
+		</footer>
+		
+		
+	</body>
+	
+</html>

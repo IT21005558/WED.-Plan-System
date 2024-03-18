@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> About Us : Wedding with Smile </title>
+		
+		<!--add stylesheet-->
+		<link rel="stylesheet" href="styles/home.css">
+		<link rel="stylesheet" href="styles/aboutus.css">
+		
+	</head>
+	
+		<link rel="icon" href="images\heart.png">
+
+	<body>
+		<!--header-->
+		<div name="header">
+			<img class="logo" src = "images\logo.png" onclick="window.location.href = 'homelogged.php'" width="250" height="200" alt="Logo">
+		
+		
+		<h1 class="title"> Wedding with Smile </h1>
+		
+		<div class="register">
+		<form method="POST" action="logout.php">
+			<input type ="submit" name="logout" class="btnlogin" value="Log Out" >	
+		</form>
+		<form method="POST" action="User_Profile.php">
+			<input type ="submit" class="btnsignup" value="Profile" >
+		</form>
+		</div>
+		
+		<ul class="menu">
+			<li class="menulist"><a href="contactuslogged.html"> Contact Us</a></li>
+			<li class="menulist"><a href="#">About Us</a></li>
+			<li class="menulist"><a href="ourpackageslogged.html">Our Services</a></li>
+			<li class="menulist"><a href="homelogged.php">Home</a></li>
+		</ul>
+		</div><br>
+		
+		
+
+		<fieldset style="border: 2px solid black;">
+				<legend ><b> About Us </b></legend>
+		
+			<p>
+				<ul class='pkg'><br>
+				<p class="limenu"> We are the best wedding planners in Kandy, Sri Lanka. Why we say it, &nbsp
+				We are industry professionals with 11 Years of Industry experience since 2010.&nbsp <br>
+				
+				<p class="limenu"> So far we have successfully completed 300+ events locally. </p>
+				
+				<p class="limenu"> 50+ Destinations Wedding and also we are more strengthned with our sister companies which are the leading in the cooperate event industry. </p>
+				<p class="limenu"> Wedding With Smile is a sole subsidary of SriEvents and WeddingPro.lk</p><br>
+				
+				<p class="limenu"> Also we are member of Event Management Association of Sri Lanka (EMA) and registered member of Sri Lanka Tourism Development Authority. </p><br>
+				<address><h3> Your Vision. Your Style. Your Passion. Your Day. We Make It Happen. We Are Your Wedding Planner <br><q> WEDDING WITH SMILE </q></h3></address>
+			</p>
+		<br><br><br><br><br>
+
+<!------------------------------------------Slideshow------------------------------------------>
+<!-- Slideshow container -->
+	<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+		<div class="numbertext">1 / 10</div>
+		<img src="images/aboutus_1.jpg" style="width:100%">
+		<div class="text">Wedding with Smile</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 10</div>
+		<img src="images/aboutus_2.jpg" style="width:100%">
+		<div class="text">Wedding with Smile</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">3 / 10</div>
+		<img src="images/aboutus_3.jpg" style="width:100%">
+		<div class="text">Wedding with Smile</div>
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">4 / 10</div>
+		<img src="images/aboutus_4.jpg" style="width:100%">
+		<div class="text">Wedding with Smile</div>
+	</div>
+  
+    <div class="mySlides fade">
+		<div class="numbertext">5 / 10</div>
+		<img src="images/aboutus_5.jpg" style="width:100%">
+		<div class="text">Wedding with Smile</div>
+	</div>
+  
+    <div class="mySlides fade">
+		<div class="numbertext">6 / 10</div>
+		<img src="images/aboutus_6.jpg" style="width:100%">
+		<div class="text">Wedding with Smile</div>
+	</div>
+  
+    <div class="mySlides fade">
+		<div class="numbertext">7 / 10</div>
+		<img src="images/aboutus_7.jpg" style="width:100%">
+		<div class="text">Wedding with Smile</div>
+	</div>
+  
+    <div class="mySlides fade">
+		<div class="numbertext">8 / 10</div>
+		<img src="images/aboutus_8.jpg" style="width:100%">
+		<div class="text">Wedding with Smile</div>
+	</div>
+  
+    <div class="mySlides fade">
+		<div class="numbertext">9 / 10</div>
+		<img src="images/aboutus_9.jpg" style="width:100%">
+		<div class="text">Wedding with Smilee</div>
+	</div>
+  
+    <div class="mySlides fade">
+		<div class="numbertext">10 / 10</div>
+		<img src="images/aboutus_10.jpg" style="width:100%">
+    <div class="text">Wedding with Smile</div>
+	</div>
+	</div>
+	<br>
+
+<!-- The dots/circles -->
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+		<span class="dot" onclick="currentSlide(5)"></span>
+		<span class="dot" onclick="currentSlide(6)"></span>
+		<span class="dot" onclick="currentSlide(7)"></span>
+		<span class="dot" onclick="currentSlide(8)"></span>
+		<span class="dot" onclick="currentSlide(9)"></span>
+		<span class="dot" onclick="currentSlide(10)"></span>
+	</div><br>
+
+<script src="js/aboutus.js"></script>
+<!--<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+	}
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}    
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+	}
+	slides[slideIndex-1].style.display = "block";  
+	dots[slideIndex-1].className += " active";
+	setTimeout(showSlides, 3000); // Change image every 3 seconds
+	}
+</script>-->
+  
+<!------------------------------------------Slideshow End------------------------------------------>
+		<!--<div class=heart>
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+		<img src="images/heart.png">
+
+		</div>-->
+		
+		<!--<p>
+		<button id="btnl" onclick="loadData('btnl');"><h3>Starting from 350,000 LKR  </h3></button>
+		<center><input type="submit" name="submit" onclick="return valid()" value="Talk with Team!" id="submit"></center>
+		</p>--></ul><br><br>
+		<div class=heart>
+		
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+			<img src="images/heart.png">
+
+		</div>
+
+		
+</fieldset>	
+	<br>
+	<br>
+		
+		
+		
+		
+		<div name="footer">
+			<footer class="footer">
+			
+			<img src="images/logo.png" align ="center" width="120" height="90" alt="Logo">
+			<p>
+				<a href="#">Home</a>
+				.
+				<a href="#">Terms of Use</a>
+				.
+				<a href="#">News</a>
+				.
+				<a href="aboutus.html">About Us</a>
+				.
+				
+			</p>
+			
+
+			<p class="footer-copyright">Wedding with Smile &copy; 2021</p>
+			
+
+
+		</footer>
+		</div>
+
+
+	
+	</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Contact Us : Wedding with Smile </title>
+		
+		<!--add stylesheet-->
+		<link rel="stylesheet" href="styles/home.css">
+		<link rel="stylesheet" href="styles/ContactUs.css">
+	</head>
+	
+	<body>
+		<!--header-->
+		<div name="header">
+			<img class="logo" src = "images\logo.png" onclick="window.location.href = 'home.html'" width="250" height="200" alt="Logo">
+		
+		
+		<h1 class="title"> Wedding with Smile </h1>
+		
+		<div class="register">
+			<input type ="button" onclick="window.location.href = 'login.html'" class="btnlogin" value="Log In" > 
+			<input type ="button" onclick="window.location.href = 'signup.html'" class="btnsignup" value=" Sign Up" >
+		</div>
+		
+		<ul class="menu">
+			<li class="menulist"><a href="Contact Us.html"> Contact Us</a></li>
+			<li class="menulist"><a href="Aboutus.html">About Us</a></li>
+			<li class="menulist"><a href="ourpackages.html">Our Services</a></li>
+			<li class="menulist"><a href="home.html">Home</a></li>
+		</ul>
+		</div>
+		<br>
+		<div class="container1">
+
+		<div style="text-align:center">
+        <center> <h2 style="color:#AB0552; font-size: 40px; font-family:Calibri" > Contact Us </h2></center>
+        </div>
+
+		<form  action="contactusdb.php" method="POST">
+		
+		 <label for="name" >Name </label>
+         <input type="text" id="name" name="name" placeholder="Your name">
+		
+		 
+		 <label for="email"> E-Mail </label>
+         <input type="text" id="mail" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Your email">
+		 
+		 <label for="subject"> Subject </label>
+         <input type="text" id="subject" name="subject"  placeholder="subject">
+		 
+		 
+		 <label for="message"> What Would you like to Know? </label>
+         <textarea id="message" name="message" style="height:200px"> </textarea>
+		
+		<input type="submit" value="Submit">
+
+       </form>
+	   
+	   <h3> Contact Us </h3>
+	   <h4> Tel- 0811111111 <br> Email- weddingsimle@gmail.com <br> Addres- 15,Dalada Vidiya,Kandy <h4>
+	   
+       </div>
+	   
+	
+		<div name="footer">
+			<footer class="footer">
+			<img src="images/logo.png" align ="center" width="120" height="90" alt="Logo">
+			<p>
+				<a href="#">Home</a>
+				.
+				<a href="#">Terms of Use</a>
+				.
+				<a href="#">News</a>
+				.
+				<a href="aboutus.html">About Us</a>
+				.
+				
+			</p>
+
+			<p class="footer-copyright">Wedding with Smile &copy; 2021</p>
+
+		</footer>
+		</div>
+		
+	</body>
+	</html>
+	
+
+

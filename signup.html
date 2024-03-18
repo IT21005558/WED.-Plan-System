@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Sign Up </title>
+		
+		<!--add stylesheet-->
+		<link rel="stylesheet" href="styles/home.css">
+		<link rel="stylesheet" href="styles/signup.css">
+		
+		<!--sign up Javascript-->
+		<script src="js/signup.js"> </script>
+		
+		
+	</head>
+	
+	<body>
+		<!--header-->
+		<div name="header">
+			<img class="logo" src = "images\logo.png" onclick="window.location.href = 'home.html'" width="250" height="200" alt="Logo">
+		
+		
+		<h1 class="title"> Wedding with Smile </h1>
+		
+		<div class="register">
+			<input type ="button" onclick="window.location.href = 'login.html'" class="btnlogin" value="Log In" > 
+		</div>
+		
+		<ul class="menu">
+			<li class="menulist"><a href="contactus.html"> Contact Us</a></li>
+			<li class="menulist"><a href="ourpackages.html">Our Services</a></li>
+			<li class="menulist"><a href="home.html">Home</a></li>
+		</ul>
+		</div>
+		
+					<!-- Form  -->
+		<form onsubmit="return checkPassword()" name="form1" action="signupdb.php" method="POST">
+		
+			<center> <h2 style="color:#AB0552; font-size: 40px; font-family:Calibri" > Registration </h2></center>
+				<div class="box">
+				
+				&nbsp <label> Full Name &nbsp &nbsp &nbsp </label>
+				<input type="text" id="name" name="uname" / style="margin-center: -80px;" required >
+				<br/><br/>
+				
+				<label> E-Mail  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </label>
+				<input type="text" id="email" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="email@example.com" class="email"/ style="margin-center: -90px;" required >
+				<br/><br>
+
+				&nbsp <label> Phone  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp </label>
+				<input type="text" id="phone" name="number" pattern="[0-9]{10}" placeholder="07xxxxxxxx" class="number"/ style="margin-center: -90px;" required >
+				<br/><br/>
+
+				&nbsp <label> Birthday  &nbsp &nbsp &nbsp &nbsp </label>
+				<input type="date" id="birthday" name="ubirthday"/ style="margin-center: -80px;" required >
+				<br/> <br/>
+				
+				<label> Gender &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </label>
+				<label><input type="radio" name="ugender" id="m" class="gender" value="Male">Male</label>
+				<label> &nbsp &nbsp  &nbsp <input type="radio" name="ugender" id="f" class="gender" value="Female">Female</label>
+				<br/><br/></br><br>
+
+				<label> Address &nbsp &nbsp </label> &nbsp
+				<textarea name="address" rows="5" cols="40" style="margin-center: -90px;" required > </textarea>
+				<br/><br/>
+
+				<label> Enter Passward &nbsp &nbsp </label>
+				<input type="Password" id="password"  pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,}" 
+				title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"  
+				 name="password"  class="password" required>
+				<br/> <br/>
+				
+				<label> Re Enter Password </label>
+				<input type="Password" id="password1"   name="password1"  class="password" required>
+				<br><br><br>
+				
+				<div style="color: #fff;">
+				<p class="statement"><input type="checkbox" name="agree-statement" id="statement" onclick="return valid()" required > I Accept Privacy and Policy Term Conditions. </p>
+				
+				</div>
+				<br><br>
+				
+				<center><input type="submit" name="submit"   value="REGISTER" id="submit"></center>				
+				
+				
+				
+				</div>
+				<br><br>
+
+			  </form>
+			  
+			</content>
+			</center>
+			
+		
+		<!--footer-->
+		<div name="footer">
+			<footer class="footer">
+			<img src="images/logo.png" align ="center" width="120" height="90" alt="Logo">
+				<p>
+					<a href="#">Home</a>
+					&nbsp
+					<a href="#">Terms of Use</a>
+					&nbsp
+					<a href="#">News</a>
+					&nbsp
+					<a href="aboutus.html">About Us</a>
+					&nbsp
+				</p>
+
+			<p class="footer-copyright"> Wedding with Smile &copy; 2021</p>
+		
+		</footer>
+		</div>
+		
+	</body>
+	
+</html>
